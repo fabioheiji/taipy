@@ -3,6 +3,7 @@ from pages.graph_creation import graph_creation_md
 from pages.llm import llm_md
 from pages.home import home_md
 from pages.time_series import time_series_md
+from pages.word_cloud import word_cloud_md
 
 pages = {
     "/": "<|menu|lov={page_names}|on_action=menu_action|>",
@@ -10,6 +11,7 @@ pages = {
     "graph_creation": graph_creation_md,
     "llm": llm_md,
     "time_series": time_series_md,
+    'word': word_cloud_md,
 }
 
 
